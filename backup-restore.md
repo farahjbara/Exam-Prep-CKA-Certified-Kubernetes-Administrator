@@ -43,12 +43,12 @@ ETCD is the key value data store of the Kubernetes Cluster. The data is stored f
 ### Restoring ETCD: 
 To store etcd from backup , we use the etcdctl snapshot restore command: <br>
 
-    ```bash
+    
           sudo ETCDCTL_API= 3 etcdctl --data-dir=/var/lib/from-backup snapshot restore \opt\etcd-backup
           verify : sudo ls /var/lib/from-backup
                    > member
-    ```
-    <br>
+    
+
 To terminate , change the value of the attribute spec.volumes.hostPath with name `name: etcd-data` <br>
    path: ~/var/lib/etcd~
    ```bash
