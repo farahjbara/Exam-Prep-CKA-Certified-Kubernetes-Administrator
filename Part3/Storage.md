@@ -64,7 +64,9 @@ Key elements of this definition:
 
 To see the access mode used by a PersistentVolume : <br>
 `kubectl get pv pv-logs -o jsonpath='{.spec.accessModes}'`
+<br>
 **Reclaim Policy**
+<br>
 Determines what happens to a volume when it is released. Possible values are Retain, Recycle, and Delete.
 
 ## PersistentVolumeClaim object 
@@ -87,6 +89,7 @@ spec:
 - resources.requests.storage: Specifies the desired storage size. <br>
 - accessModes: Specifies the desired access mode. <br>
 - storageClassName: Specifies which storage class to use. If left empty, the default storage class is used.<br>
+<br>
 **Status of PersistentVolumeClaim:**  <br>
 Bound ==> the binding to the PersistentVolume was successful.  <br>
 Pending ==> the binding to the PersistentVolume is still in progress. <br>
@@ -136,9 +139,9 @@ parameters:
     replication-type: regional-pd
 
 ```
-**Key elements of this definition:
+**Key elements of this definition:**
 
 - provisioner: Specifies the volume plugin to use (e.g., kubernetes.io/gce-pd for Google Cloud Engine persistent disk).
-- parameters: Specifies additional parameters for the provisioner. For example:
-    **type:** The type of storage (e.g., pd-ssd for SSD).
+- parameters: Specifies additional parameters for the provisioner. For example: <br>
+    **type:** The type of storage (e.g., pd-ssd for SSD). <br>
     **replication-type:** The replication type (e.g., regional-pd for regional persistent disk).
