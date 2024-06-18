@@ -88,4 +88,5 @@ spec:
 ```
 9- Write the name of the PersistentVolume to the file pv-name.txt: <br>
   >` $ echo "pvc-9852" > pv-name.txt` <br>
+<br>
 10- Deleting the PersistentVolumeClaim will delete the bound PersistentVolume as well.
