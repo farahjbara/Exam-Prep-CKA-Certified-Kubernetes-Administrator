@@ -1,11 +1,11 @@
 
 <ol>
  <li> Create a PersistentVolume named *logs-pv* that maps to the hostPath */tmp/logs*.
-The access mode should be ***ReadWriteOnce** and **ReadOnlyMany**. Provision a stor‐
+The access mode should be <b> ReadWriteOnce </b> and <b> ReadOnlyMany </b>. Provision a stor‐
 age capacity of 2Gi. Assign the reclaim policy Delete and an empty string as the
 storage class. Ensure that the status of the PersistentVolume shows Available. </li>
 <li> Create a PersistentVolumeClaim named *logs-pvc*. The access it uses is
-ReadWriteOnce. Request a capacity of **1Gi**. Ensure that the status of the Persis‐
+ReadWriteOnce. Request a capacity of <b> 1Gi</b>. Ensure that the status of the Persis‐
 tentVolume shows Bound.</li>
 <li> Mount the PersistentVolumeClaim in a Pod running the image nginx at the
 mount path */var/log/nginx*.</li>
@@ -18,7 +18,7 @@ provisioner.</li>
 <li> Create a new storage class named custom using the provisioner of the default
 storage class.</li>
 <li> Create a PersistentVolumeClaim named *custom-pvc*. Request a capacity of
-**500Mi** and declare the access mode **ReadWriteOnce**. Assign the storage class
+ <b> 500Mi</b> and declare the access mode  <b> ReadWriteOnce </b>. Assign the storage class
 name custom.</li>
 <li> The PersistentVolume should have been provisioned dynamically. Find out the
 name and write it to the file named *pv-name.txt*.</li>
