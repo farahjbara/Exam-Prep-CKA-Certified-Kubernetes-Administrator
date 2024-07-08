@@ -13,3 +13,11 @@ Create a new ServiceAccount gitops in Namespace project-1.
 <br> Create a Role and RoleBinding, both named gitops-role and gitops-rolebinding as well. 
 <br>
 These should allow the new SA to only create Secrets and ConfigMaps in that Namespace.
+
+## Task 4:
+
+Create a new pod called super-user-pod with image busybox:1.28. Allow the pod to be able to set system_time.
+
+<br>
+The container should sleep for 4800 seconds.
+
