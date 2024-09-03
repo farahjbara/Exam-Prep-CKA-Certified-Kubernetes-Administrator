@@ -34,12 +34,12 @@ The CNCF curriculum is posted [here](https://github.com/cncf/curriculum). The pe
 ## Study parts
 Each objective is broken down into six study parts: 
 
-- [Part1:Core-concepts](Part1:Core-concepts/Core-concept.md)
-- [Part2:Cluster-Maintenance](Part2:Cluster-Maintenance)
-- [Part3:Storage](Part3:Storage/Storage.md)
-- [Part4:Networking](Part4:Networking)
-- [Part5:Security](Part5:Security)
-- [Part6:Troubleshooting](Part6:Troubleshooting)
+- [Part1:Core-concepts](https://github.com/farahjbara/Exam-Prep-CKA-Certified-Kubernetes-Administrator/blob/main/Part1%3ACore-concepts/Core-concept.md)
+- [Part2:Cluster-Maintenance](https://github.com/farahjbara/Exam-Prep-CKA-Certified-Kubernetes-Administrator/tree/main/Part2%3ACluster-Maintenance)
+- [Part3:Storage](https://github.com/farahjbara/Exam-Prep-CKA-Certified-Kubernetes-Administrator/blob/main/Part3%3AStorage/Storage.md)
+- [Part4:Networking](https://github.com/farahjbara/Exam-Prep-CKA-Certified-Kubernetes-Administrator/tree/main/Part4%3ANetworking)
+- [Part5:Security](https://github.com/farahjbara/Exam-Prep-CKA-Certified-Kubernetes-Administrator/tree/main/Part5%3ASecurity)
+- [Part6:Troubleshooting](https://github.com/farahjbara/Exam-Prep-CKA-Certified-Kubernetes-Administrator/tree/main/Part6%3ATroubleshooting)
 
 ## Resources
 
