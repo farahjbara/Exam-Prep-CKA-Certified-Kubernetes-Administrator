@@ -6,7 +6,7 @@
 
 This repository contains a study guide created in preparation for passing the Certified Kubernetes Administrator (CKA) exam.
 
-Each  [Exam Objective](#exam-objectives)  is broken down into six study parts[Study parts](#study parts). These parts cover the core concepts and include exercises and solutions to help you understand and practice.
+Each  [Exam Objective](#exam-objectives)  is broken down into six study parts[Study parts](#study-parts). These parts cover the core concepts and include exercises and solutions to help you understand and practice.
 
 
 
