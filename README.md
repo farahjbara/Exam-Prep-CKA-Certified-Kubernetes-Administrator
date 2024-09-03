@@ -13,24 +13,13 @@ Each  [Exam Objective](#exam-objectives)  is broken down into six study parts[St
 
 - [Certified Kubernetes Administrator (CKA) Exam Study Guide](#certified-kubernetes-administrator-cka-exam-study-guide)
   - [Exam Objectives](#exam-objectives)
-  - [Study parts](#study parts)
+  - [Study parts](#study-parts)
   - [Resources](#resources)
     - [📝 Official References](#-official-references)
     - [🎓 Online Training](#-online-training)
-    - [📚 Books] (#-Books)
+    - [📚 Books](#-Books)
   - [License](#license)
 
-## Project Overview
-
-Key things to know:
-
-- Task tracking is contained on [this Trello board](https://bit.ly/2SzlFRr).
-- The `main` branch contains all of the finished work.
-- The `draft` branch contains work-in-progress that needs to be polished, verified, and formatted.
-
-Additionally, you can watch this brief introduction video below:
-
-[![Announcement Video](img/video.png)](https://youtu.be/dkYCw88mWow)
 
 ## Exam Objectives
 
