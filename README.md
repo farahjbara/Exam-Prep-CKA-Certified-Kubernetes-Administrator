@@ -57,7 +57,7 @@ Each objective is broken down into six study parts:
 ### 🎓 Online Training
 
 - [Mumshad CKA with practice tests and mock exams](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/) - Highly recommended
-
+- [Cloud Academy - Certified Kubernetes Administrator (CKA) Exam Preparation](https://platform.qa.com/learning-paths/certified-kubernetes-administrator-exam-preparation-242/)
 #### 📚  Books 
 - [Benjamin Muschko - Certified Kubernetes Administrator (CKA) Study Guide] (https://www.amazon.com/_/dp/1098107225?smid=ATVPDKIKX0DER&_encoding=UTF8&tag=oreilly20-20)
 ## License
