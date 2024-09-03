@@ -32,12 +32,15 @@ The CNCF curriculum is posted [here](https://github.com/cncf/curriculum). The pe
 - Objective 5: Troubleshooting
 
 ## Study parts
+Each objective is broken down into six study parts: 
+
 - [Part1:Core-concepts](Part1:Core-concepts/Core-concept.md)
 - [Part2:Cluster-Maintenance](Part2:Cluster-Maintenance)
 - [Part3:Storage](Part3:Storage/Storage.md)
 - [Part4:Networking](Part4:Networking)
 - [Part5:Security](Part5:Security)
 - [Part6:Troubleshooting](Part6:Troubleshooting)
+
 ## Resources
 
 
