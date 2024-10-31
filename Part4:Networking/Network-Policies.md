@@ -152,7 +152,9 @@ You can also verify that traffic between frontend and db is denied:
 <br>
 This NetworkPolicy lets you define ingress rules for specific ports of an application. If you do not specify a port in the ingress rules, the rule applies to all ports.
 <br>
-**Example**
+ **Example**
+<br> 
+
 ```yaml
 kind: NetworkPolicy
 apiVersion: networking.k8s.io/v1
