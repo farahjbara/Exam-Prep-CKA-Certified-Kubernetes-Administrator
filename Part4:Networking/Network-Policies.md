@@ -148,6 +148,26 @@ You can also verify that traffic between frontend and db is denied:
 <br>
 `kubectl -n db exec db-pod -- curl backend-svc.backend ## Should be denied`
 <br>
+## HOW ALLOW traffic only to a port of an application
+<br>
+This NetworkPolicy lets you define ingress rules for specific ports of an application. If you do not specify a port in the ingress rules, the rule applies to all ports.
+<br>
+**Example**
+```yaml
+kind: NetworkPolicy
+apiVersion: networking.k8s.io/v1
+metadata:
+  name: allow-80
+spec:
+  podSelector:{}
+  ingress:
+  - ports:
+    - port: 80
+      protocol: TCP
+   
+```
+==> This  allow incoming traffic on port 80 from all pods in the same namespace
+
 ## Conclusion
 Kubernetes Network Policies are a powerful tool for securing and isolating applications running within the cluster. By applying policies at the namespace level, you can control ingress and egress traffic, ensuring that services can only communicate with the components they need to, and reducing the attack surface for potential threats.
 <br>
